@@ -155,7 +155,9 @@
     leftImageIndex = imageLinkURL.count-1;
     centerImageIndex = 0;
     rightImageIndex = 1;
-    
+    if (imageLinkURL.count==1) {
+         rightImageIndex = 0;
+    }
     [_leftImageView sd_setImageWithURL:[NSURL URLWithString:imageLinkURL[leftImageIndex]] placeholderImage:self.placeHoldImage];
     [_centerImageView sd_setImageWithURL:[NSURL URLWithString:imageLinkURL[centerImageIndex]] placeholderImage:self.placeHoldImage];
     [_rightImageView sd_setImageWithURL:[NSURL URLWithString:imageLinkURL[rightImageIndex]]placeholderImage:self.placeHoldImage];
