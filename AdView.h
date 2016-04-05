@@ -1,9 +1,9 @@
 //
 //  AdView.h
-//  LXHShopping
+//  SPFShopping
 //
-//  Created by qianfeng001 on 15/9/7.
-//  Copyright (c) 2015年 梁先华. All rights reserved.
+//  Created by SPF on 15/9/7.
+//  Copyright (c) 2015年 SPF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
